@@ -34,12 +34,12 @@
 	//Portfolio Page
 
 	.portfolios {
-		grid-template-columns: repeat(2 1fr);
+		grid-template-columns: 1fr 1fr;
 	}
 
 	// Blog Page
 	.blogs {
-		grid-template-columns: repeat(2 1fr);
+		grid-template-columns: 1fr 1fr;
 	}
 	// Main Titles
 	.main-title {
@@ -75,6 +75,16 @@
 	.contact-content-container .right-contact .input-control-alt :last-child {
 		margin-left: 0;
 		margin-top: 1.5rem;
+	}
+	//Portfolio Page
+
+	.portfolios {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	// Blog Page
+	.blogs {
+		grid-template-columns: 1fr 1fr;
 	}
 }
 // Media queries for screens with max width of 1023.98 pixels
